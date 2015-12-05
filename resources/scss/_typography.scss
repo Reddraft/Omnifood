@@ -1,0 +1,8 @@
+//Base font styles//
+
+@mixin baseFont() {
+  font-family: 'lato', 'Helvetica', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
