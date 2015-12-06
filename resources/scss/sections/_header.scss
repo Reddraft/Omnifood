@@ -1,0 +1,27 @@
+/* --------------- */
+/* HEADER */
+/* --------------- */
+
+header {
+  background: -webkit-linear-gradient(180deg, $trans-black, $black), url(img/hero-min.jpg) no-repeat;
+  background:         linear-gradient(180deg, $trans-black, $black), url(img/hero-min.jpg) no-repeat;
+  height: 100vh;
+  background-position: center; 
+  background-size: cover;
+
+  .hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    margin: 0;
+    color: $white;
+    @include base-h1;
+  }
+}
+
