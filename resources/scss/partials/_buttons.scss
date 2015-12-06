@@ -1,0 +1,48 @@
+// Main Buttons Styles
+
+.btn {
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $white;
+    transition: background-color .2s, color .2s, border .2s;
+  }
+}
+
+
+.btn-full {
+  &:link,
+  &:visited {
+    background-color: $light-orange;
+    border: 1px solid $light-orange;
+    margin-right: 15px; 
+  }
+
+  &:hover,
+  &:active {
+    background-color: $dark-orange;
+    border: 1px solid $dark-orange;
+  }
+}
+
+
+.btn-ghost {
+  &:link,
+  &:visited {
+    border: 1px solid $light-orange;
+    color: $light-orange;
+  }
+
+  &:hover,
+  &:active {
+    background-color: $dark-orange;
+    border: 1px solid $dark-orange;
+    color: $white;
+  }
+}
+
