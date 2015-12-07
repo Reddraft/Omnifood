@@ -1,7 +1,15 @@
 //This grid is based on the grid file on vendors/css/grid.css
 
+section {
+  padding: 4rem 0; //80px padding
+}
 
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+.box {
+  padding: 1%;
+}
+

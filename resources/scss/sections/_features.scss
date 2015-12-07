@@ -1,0 +1,17 @@
+h2 {
+  @include base-h2;
+}
+
+.long-copy {
+   @include longCopy-p;
+}
+
+h3 {
+  @include base-h3;
+  text-align: center;  
+}
+
+.box p {
+  @include smaller-p;
+  text-align: center;
+}

@@ -10,11 +10,66 @@
 
 //Headings-mixins//
 
-@mixin base-h1 {
-  font-size: 3rem;
+.share-headings {
   text-transform: uppercase;  
-  font-weight: 100;
-  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+@mixin base-h1 {
+  @extend .share-headings;
+  font-size: 3rem;
   word-spacing: 3px;
+  letter-spacing: 1px;
 
 }
+
+@mixin base-h2 {
+  @extend .share-headings;
+  font-size: 1.8rem;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  text-align: center;
+    letter-spacing: 1px;
+  
+  &:after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: $light-orange;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }  
+}
+
+@mixin base-h3 {
+  @extend .share-headings;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+
+//Paragraph-mixins//
+
+@mixin longCopy-p {
+  line-height: 150%;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%; //instead of using  margin: 0 auto; I used 10% + 10% + width: 80% = 100%
+  margin-bottom: 30px;
+}
+
+@mixin smaller-p {
+  font-size: 0.9rem;
+  line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
