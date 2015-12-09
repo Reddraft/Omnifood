@@ -9,5 +9,6 @@
         touch scss/test.scss sass -w scss:css
 
 ##tell Sass to watch the file and update the CSS every time the Sass file changes:
+*go up 1 folder and then cd in css/style.css*
 
-        sass --watch style.scss:style.css
+        sass --watch style.scss:../style.css
