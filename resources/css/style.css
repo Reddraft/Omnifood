@@ -94,6 +94,9 @@ header {
       word-spacing: 3px;
       letter-spacing: 1px; }
 
+/* --------------- */
+/* FEATURES */
+/* --------------- */
 h2 {
   font-size: 1.8rem;
   word-spacing: 2px;
@@ -125,6 +128,33 @@ h3 {
   font-size: 0.9rem;
   line-height: 150%;
   text-align: center; }
+
+/* --------------- */
+/* MEALS */
+/* --------------- */
+.section-meals {
+  padding: 0; }
+  .section-meals .meals-showcase {
+    width: 100%;
+    list-style: none; }
+    .section-meals .meals-showcase li {
+      display: block;
+      width: 25%;
+      float: left; }
+      .section-meals .meals-showcase li .meal-photo {
+        background-color: black;
+        width: 100%;
+        margin: 0;
+        overflow: hidden; }
+        .section-meals .meals-showcase li .meal-photo img {
+          width: 100%;
+          height: auto;
+          opacity: .7;
+          transform: scale(1.3);
+          transition: transform .5s, opacity .5s; }
+          .section-meals .meals-showcase li .meal-photo img:hover {
+            opacity: 1;
+            transform: scale(1.1); }
 
 * {
   margin: 0;
