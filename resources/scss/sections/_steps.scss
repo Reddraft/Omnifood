@@ -4,7 +4,22 @@
 
 .section-steps {
   background: #eee url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/45degreee_fabric.png) repeat;
-}//end section-steps
+
+  .btn-app {
+
+    &:link,
+    &:visited {
+      border: none; //remove the border bottom from base links;
+    }
+
+    img {  
+      height: 50px;
+      width: auto;
+      margin-right: 10px;
+    }
+  }
+
+} //end section-steps
 
 .steps-box {
 
@@ -46,13 +61,9 @@
     float: left;
     margin-right: 25px;
   }
+
 } //End of works-step
 
-.btn-app > img {
-  height: 50px;
-  width: auto;
-  margin-right: 10px;
-}
 
 
 

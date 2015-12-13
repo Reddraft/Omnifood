@@ -7,3 +7,18 @@
   margin-bottom: 10px;
   text-align: center;
 }
+
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: $light-orange;
+  margin-right: 10px;
+  
+  // Secret to align text and icon
+
+  line-height: 1.2rem; //Set line height as font-size
+  vertical-align: middle; // Vertical Align middle
+  margin-top: -5px; // play with negative margin
+}
