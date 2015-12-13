@@ -23,13 +23,16 @@
         img {
           width: 100%;
           height: auto;
-          opacity: .7; //image transparency to see black background
-          transform: scale(1.3); //feels the empty space around the image.//
-          transition: transform .5s, opacity .5s; //trasition transform and opacity in hover in .5 secs
+          opacity: .5; //image transparency to see black background
+          -webkit-transform: scale(1.8); //image transparency to see black background
+                  transform: scale(1.8); //feels the empty space around the image.//
+          transition: -webkit-transform .5s, opacity .5s; //feels the empty space around the image.//
+          transition:         transform .5s, opacity .5s; //trasition transform and opacity in hover in .5 secs
 
           &:hover {
             opacity: 1;
-            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
           }
         }
 

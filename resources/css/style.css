@@ -1,3 +1,6 @@
+/* --------------- */
+/* grid */
+/* --------------- */
 section {
   padding: 4rem 0; }
 
@@ -7,6 +10,16 @@ section {
 
 .box {
   padding: 1%; }
+
+.clearfix {
+  zoom: 1; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
 
 .share-headings, header .hero-text-box h1, h2, h3 {
   text-transform: uppercase;
@@ -149,12 +162,55 @@ h3 {
         .section-meals .meals-showcase li .meal-photo img {
           width: 100%;
           height: auto;
-          opacity: .7;
-          transform: scale(1.3);
+          opacity: .5;
+          -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+          transition: -webkit-transform .5s, opacity .5s;
           transition: transform .5s, opacity .5s; }
           .section-meals .meals-showcase li .meal-photo img:hover {
             opacity: 1;
+            -webkit-transform: scale(1.1);
             transform: scale(1.1); }
+
+/* --------------- */
+/* STEPS */
+/* --------------- */
+.section-steps {
+  background: #eee url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/45degreee_fabric.png) repeat; }
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px; }
+.steps-box:last-child {
+  padding-left: 3%;
+  margin-top: 90px; }
+.steps-box .app-screen {
+  width: 50%;
+  height: auto; }
+
+.works-step {
+  margin-bottom: 50px; }
+  .works-step:last-of-type {
+    margin-bottom: 100px; }
+  .works-step .number {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    color: #e67e22;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    text-align: center;
+    padding: 0.7rem;
+    float: left;
+    margin-right: 25px; }
+
+.btn-app > img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px; }
 
 * {
   margin: 0;

@@ -1,5 +1,9 @@
 //This grid is based on the grid file on vendors/css/grid.css
 
+/* --------------- */
+/* grid */
+/* --------------- */
+
 section {
   padding: 4rem 0; //80px padding
 }
@@ -13,3 +17,11 @@ section {
   padding: 1%;
 }
 
+.clearfix {zoom: 1;}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}

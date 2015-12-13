@@ -1,0 +1,65 @@
+/* --------------- */
+/* STEPS */
+/* --------------- */
+
+.section-steps {
+  background: #eee url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/45degreee_fabric.png) repeat;
+}//end section-steps
+
+.steps-box {
+
+  &:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+  }
+
+  &:last-child {
+    padding-left: 3%;
+    margin-top: 90px;
+  }
+
+  .app-screen {
+    width: 50%;
+    height: auto;
+  }  
+} //End of step box
+
+.works-step {
+  margin-bottom: 50px;
+
+  &:last-of-type {
+    margin-bottom: 100px;
+  }
+
+  .number {
+    display: inline-block;
+    height: 60px;
+    width: 60px;  
+    border: 2px solid $light-orange;
+    border-radius: 50%;
+    color: $light-orange;              
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    text-align: center;
+    padding: 0.7rem;
+    float: left;
+    margin-right: 25px;
+  }
+} //End of works-step
+
+.btn-app > img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
