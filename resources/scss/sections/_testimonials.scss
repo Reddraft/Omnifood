@@ -1,0 +1,45 @@
+/* --------------- */
+/* TESTIMONIALS */
+/* --------------- */
+
+.section-testimonials {
+  background: -webkit-linear-gradient($trans-black, $black), url(img/back-customers-min.jpg) no-repeat;
+  background:         linear-gradient($trans-black, $black), url(img/back-customers-min.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: $white;
+
+  blockquote {
+    position: relative;
+    padding: 1%;
+    font-style: italic;
+    line-height: 150%;
+
+    &:before {
+      content: "\201C"; // Quotation mark -- https://css-tricks.com/snippets/html/glyphs
+      font-size: 4.5rem;
+      display: block;
+      position: absolute;
+      left: -3px; 
+      top: 0;    
+    }
+  }
+
+  cite {
+    display: block;
+    font-size: .9rem;
+    margin-top: 25px;
+    color: $light-orange;
+   
+
+
+    > img {
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: middle; 
+    }
+  }
+
+}

@@ -93,6 +93,7 @@ header {
   background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.7), #000), url("img/hero-min.jpg") no-repeat;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), #000), url("img/hero-min.jpg") no-repeat;
   height: 100vh;
+  background-attachment: fixed;
   background-position: center;
   background-size: cover; }
   header .logo {
@@ -250,6 +251,39 @@ h3 {
   margin-bottom: 15px; }
 .section-cities .city-feature {
   margin-bottom: 5px; }
+
+/* --------------- */
+/* TESTIMONIALS */
+/* --------------- */
+.section-testimonials {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), #000), url(img/back-customers-min.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), #000), url(img/back-customers-min.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: #fff; }
+  .section-testimonials blockquote {
+    position: relative;
+    padding: 1%;
+    font-style: italic;
+    line-height: 150%; }
+    .section-testimonials blockquote:before {
+      content: "\201C";
+      font-size: 4.5rem;
+      display: block;
+      position: absolute;
+      left: -3px;
+      top: 0; }
+  .section-testimonials cite {
+    display: block;
+    font-size: .9rem;
+    margin-top: 25px;
+    color: #e67e22; }
+    .section-testimonials cite > img {
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: middle; }
 
 * {
   margin: 0;
