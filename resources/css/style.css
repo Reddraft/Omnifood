@@ -285,6 +285,43 @@ h3 {
       margin-right: 10px;
       vertical-align: middle; }
 
+/* --------------- */
+/* PLANS */
+/* --------------- */
+.section-plans {
+  background: #eee url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/45degreee_fabric.png) repeat; }
+  .section-plans .plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 0 2px #555; }
+    .section-plans .plan-box > div {
+      padding: 15px;
+      border-bottom: 1px solid #e8e8e8; }
+      .section-plans .plan-box > div:first-child, .section-plans .plan-box > div:last-child {
+        text-align: center; }
+      .section-plans .plan-box > div:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background-color: #fcfcfc; }
+      .section-plans .plan-box > div:last-child {
+        border-bottom: none; }
+      .section-plans .plan-box > div .plan-price {
+        font-size: 3rem;
+        font-weight: 100;
+        margin-bottom: 10px;
+        color: #e67e22; }
+        .section-plans .plan-box > div .plan-price span {
+          font-size: 1rem;
+          font-weight: 300; }
+      .section-plans .plan-box > div .plan-price-meal {
+        font-size: 0.9rem; }
+    .section-plans .plan-box ul {
+      list-style: none; }
+      .section-plans .plan-box ul li {
+        padding: 5px 0; }
+
 * {
   margin: 0;
   padding: 0;

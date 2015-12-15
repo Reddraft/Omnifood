@@ -1,0 +1,66 @@
+/* --------------- */
+/* PLANS */
+/* --------------- */
+
+.section-plans {
+  background: #eee url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/45degreee_fabric.png) repeat;
+
+  .plan-box {
+    background-color: $white;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%; // same as margin: 0 auto;
+    box-shadow: 0 0 2px $mid-gray; 
+
+    > div {
+      padding: 15px;
+      border-bottom: 1px solid $light-gray;
+      
+      &:first-child, 
+      &:last-child  {
+      text-align: center;
+      }
+
+      &:first-child {
+        border-top-left-radius: 5px;//this happens because background color
+        border-top-right-radius: 5px;
+        background-color: $extra-light-gray;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .plan-price {
+        font-size: 3rem;
+        font-weight: 100;
+        margin-bottom: 10px;
+        color: $light-orange;
+
+        span {
+          font-size: 1rem;
+          font-weight: 300;
+        }
+
+      }// end .plan-box > div .plan-price
+
+      .plan-price-meal {
+        font-size: 0.9rem;
+      }// end .plan-box > div .plan-price-meal
+
+    }// end .plan-box > div
+
+    ul {
+      list-style: none;
+
+      li {
+        padding: 5px 0;
+      }
+
+    }// end .plan-box ul
+
+
+
+  }// end .plan-box
+
+}// end .section-plans
