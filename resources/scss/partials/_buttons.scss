@@ -1,8 +1,8 @@
 // Main Buttons Styles
 
-.btn {
-  &:link,
-  &:visited {
+.btn:link, 
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     border-radius: 5px;
@@ -12,23 +12,23 @@
     color: $white;
     transition: background-color .2s, color .2s, border .2s;
   }
-}
 
-
-.btn-full {
-  &:link,
-  &:visited {
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
     background-color: $light-orange;
     border: 1px solid $light-orange;
     margin-right: 15px; 
   }
 
-  &:hover,
-  &:active {
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover, 
+input[type=submit]:active {
     background-color: $dark-orange;
     border: 1px solid $dark-orange;
   }
-}
+
 
 
 .btn-ghost {

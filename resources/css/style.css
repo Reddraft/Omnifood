@@ -28,7 +28,9 @@ section {
   text-transform: uppercase;
   font-weight: 300; }
 
-.btn:link, .btn:visited {
+.btn:link,
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 10px 30px;
   border-radius: 5px;
@@ -38,11 +40,17 @@ section {
   color: #fff;
   transition: background-color .2s, color .2s, border .2s; }
 
-.btn-full:link, .btn-full:visited {
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   margin-right: 15px; }
-.btn-full:hover, .btn-full:active {
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
   background-color: #cf6d17;
   border: 1px solid #cf6d17; }
 
@@ -321,6 +329,36 @@ h3 {
       list-style: none; }
       .section-plans .plan-box ul li {
         padding: 5px 0; }
+    .section-plans .plan-box .btn-full {
+      margin-right: 0; }
+
+/* --------------- */
+/* CONTACT */
+/* --------------- */
+form {
+  width: 60%;
+  margin: 0 auto; }
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #e8e8e8; }
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0; }
+
+select {
+  height: 40px; }
+
+textarea {
+  height: 100px; }
+
+*:focus {
+  outline: none; }
 
 * {
   margin: 0;
