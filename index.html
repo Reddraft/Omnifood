@@ -20,7 +20,7 @@
 
     <nav><!-- start Nav  -->
 
-      <div class="row"><!-- starts row  -->
+      <div class="row"><!-- starts first row  -->
 
         <img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">  
         <ul class="main-nav">
@@ -30,7 +30,7 @@
           <li><a href="#">Sign Up</a></li>
         </ul>
 
-      </div><!-- End row  -->
+      </div><!-- End of first row  -->
 
     </nav><!-- End Nav  -->
 
@@ -50,7 +50,7 @@
   
   <section class="section-features"><!-- start section features  -->
 
-    <div class="row"><!-- starts heading row  -->
+    <div class="row"><!-- starts first row  -->
 
       <h2>Get food fast &mdash; not fast food.</h2>
       <p class="long-copy">
@@ -59,9 +59,9 @@
         care of that, we’re really good at it, we promise!
       </p>
       
-    </div><!-- End heading row  -->
+    </div><!-- End first row  -->
 
-    <div class="row"><!-- starts 4 column row  -->
+    <div class="row"><!-- starts second row  -->
 
       <div class="col span-1-of-4 box">
         <i class="ion-ios-infinite-outline icon-big"></i>
@@ -107,7 +107,7 @@
         </p>
       </div><!-- end third column --> 
     
-    </div><!-- End 4 columns row  -->
+    </div><!-- End second row  -->
     
   </section><!-- End section features  -->
 
@@ -117,7 +117,7 @@
   
   <section class="section-meals"><!-- start section meals  -->
     
-    <ul class="meals-showcase clearfix"><!-- start first meals row  -->
+    <ul class="meals-showcase clearfix"><!-- start first meals ul -->
 
       <li>
         <figure class="meal-photo">
@@ -140,9 +140,9 @@
         </figure>
       </li>
 
-    </ul><!-- end first meals row  -->
+    </ul><!-- end first meals ul  -->
 
-    <ul class="meals-showcase clearfix"><!-- start second meals row  -->
+    <ul class="meals-showcase clearfix"><!-- start second meals ul  -->
 
       <li>
         <figure class="meal-photo">
@@ -164,7 +164,7 @@
           <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
         </figure>
       </li>
-    </ul><!-- end second meals row  -->
+    </ul><!-- end second meals ul  -->
     
   </section><!-- end section meals  -->  
 
@@ -176,7 +176,7 @@
 
     <div class="row">
       <h2>How it works &mdash; Simple as 1, 2, 3</h2>
-    </div><!-- end row --> 
+    </div><!-- end first row --> 
 
     <div class="row">
 
@@ -206,7 +206,7 @@
 
       </div><!-- end second column  --> 
 
-    </div><!-- end row --> 
+    </div><!-- end second row --> 
  
   </section><!-- end section steps  --> 
 
@@ -218,7 +218,7 @@
 
     <div class="row">
       <h2>We're currently in these cities</h2>
-    </div><!-- end row --> 
+    </div><!-- end first row --> 
 
     <div class="row">
 
@@ -286,7 +286,7 @@
 
       </div><!-- end fourth column box -->                
       
-    </div><!-- end row --> 
+    </div><!-- end second row --> 
 
   </section><!-- end section cities  -->
 
@@ -298,7 +298,7 @@
 
     <div class="row">
       <h2>Our customers can't live without us</h2>
-    </div><!-- end row -->
+    </div><!-- end first row -->
 
     <div class="row">
 
@@ -332,7 +332,7 @@
         </blockquote>
       </div><!-- end third column box -->            
       
-    </div><!-- end row -->
+    </div><!-- end second row -->
     
   </section><!-- end section testimonials -->
 
@@ -344,7 +344,7 @@
 
     <div class="row">
       <h2>Start eating healthy today!</h2>
-    </div><!-- end row -->
+    </div><!-- end first row -->
 
     <div class="row">
 
@@ -441,11 +441,11 @@
 
     <div class="row">
       <h2>We're happy to hear from you</h2>
-    </div><!-- end row -->
+    </div><!-- end first row -->
 
-    <div class="row"><!-- start main row -->
+    <div class="row"><!-- start second row -->
 
-      <form action="post" method="#" class="contact-form"><!-- start form -->
+      <form action="post"  class="contact-form"><!-- start form -->
 
         <div class="row">
           <div class="col span-1-of-3">
@@ -454,7 +454,7 @@
           <div class="col span-2-of-3">
             <input type="text" name="name" id="name" placeholder="Your Name" required>
           </div>
-        </div><!-- end of first label -->
+        </div><!-- end of first label row -->
 
         <div class="row">
           <div class="col span-1-of-3">
@@ -463,7 +463,7 @@
           <div class="col span-2-of-3">
             <input type="email" name="email" id="email" placeholder="Your Email" required>
           </div>
-        </div><!-- end of Second label -->
+        </div><!-- end of Second label row-->
 
         <div class="row">
           <div class="col span-1-of-3">
@@ -477,7 +477,7 @@
                 <option value="other">Other</option>
               </select>
           </div>
-        </div><!-- end of Third label -->
+        </div><!-- end of Third label row -->
 
         <div class="row">
           <div class="col span-1-of-3">
@@ -486,7 +486,7 @@
           <div class="col span-2-of-3">
             <input type="checkbox" name="news" id="news" checked> Yes Please!
           </div>
-        </div><!-- end of Fourth label -->                       
+        </div><!-- end of Fourth label row -->                       
 
         <div class="row">
           <div class="col span-1-of-3">
@@ -495,39 +495,62 @@
           <div class="col span-2-of-3">
             <textarea name="message" id="message" placeholder="Your Message"></textarea>
           </div>
-        </div><!-- end of Fifth label -->         
+        </div><!-- end of Fifth label row -->         
 
         <div class="row">
           <div class="col span-1-of-3">
             <label>&nbsp;</label>
           </div>
           <div class="col span-2-of-3">
-            <input class=""type="submit" value="send It!">
+            <input type="submit" value="send It!">
           </div>
-        </div><!-- end of Fifth label -->                   
+        </div><!-- end of sixth label row -->                   
         
       </form><!-- end form -->
 
-    </div><!-- end main row -->
-
-
-    
+    </div><!-- end second row -->
+   
   </section><!-- end section contact -->
 
+  
 
 
+  <!--FOOTER-->
 
+  <footer><!-- start footer --> 
+    
+    <div class="row">
 
+      <div class="col span-1-of-2">
+        <ul class="footer-nav">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">iOS App</a></li>
+          <li><a href="#">Android App</a></li>
+        </ul><!-- end footer-nav --> 
+      </div><!-- end of first Column --> 
 
+      <div class="col span-1-of-2">
+        <ul class="social-links">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>          
+        </ul><!-- end of social links --> 
+      </div><!-- end of second Column -->
 
+    </div><!-- end of first row --> 
 
+    <div class="row">
+      <p>Copyright &copy; 2015 by Omnifood. All right reserved.</p>
+    </div><!-- end of second row -->      
 
-
-
-
+  </footer><!-- end footer --> 
 
 	
 </body>
+
 </html>
 
 
