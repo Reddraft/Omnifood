@@ -1,0 +1,254 @@
+/* --------------- */
+/* ALL MEDIA QUERIES */
+/* --------------- */
+
+
+
+/* BIG TABLETS TO 1200PX(WIDTHS SMALLER THAN 1140PX ROW) */
+@media only screen and (max-width: 1200px) {
+
+
+  
+  // Overall styles //
+
+  .row { padding: 0 2%; } 
+
+
+  // Header //
+
+  header {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }  
+  }// end header //
+
+
+
+}
+
+
+
+/* SMALL TABLETS TO BIG TABLETS FROM 768PX TO 1023PX */
+@media only screen and (max-width: 1023px) {
+
+
+
+  //Overall styles//
+
+  body { font-size: 18px; }
+  section { padding: 10% 0;}
+
+
+  //Feature Section//
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .box:nth-child(3) span { display: block; }
+
+  .steps-box {
+
+    &:first-child {
+      padding-right: 2%;
+      margin-top: 20px;
+    }
+
+    &:last-child {
+      padding-left: 2%;
+      margin-top: 50px;
+    }
+
+    .app-screen { width: 60%; }
+
+    .works-step {
+      margin-bottom: 40px;
+
+      &:last-of-type { margin-bottom: 60px;}
+
+      p { width: 90%;}
+
+      .number {
+        height: 50px;
+        width: 50px;  
+        border: 2px solid $light-orange;
+        border-radius: 50%;
+        color: $light-orange;              
+        font-size: 1.3em;
+        line-height: 1.3em;
+        text-align: center;
+        padding: .4em;
+        float: left;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  
+  //City Section//
+  
+  .city-feature {
+    font-size: .9em;
+
+    .icon-small {
+      width: 10px;
+    }
+  }
+
+
+  //Testimonial Section//
+
+  blockquote {
+    font-size: .9em;
+  }
+
+
+  //Plans Section//
+
+  .section-plans .plan-box {
+      width: 100%;
+      
+      ul {
+        li { font-size: .9em;}
+      }    
+  }
+
+  .section-plans .plan-box div {
+
+    .plan-price {
+      font-size: 2.2em;
+      span {
+        font-size: 0.5em;
+      }
+    }
+  
+    .icon-small {
+      width: 10px;
+    }
+
+  }
+
+
+  //Contact Section//
+
+  form {
+    width: 80%;
+  }
+
+
+  //Footer Section//
+
+  footer { padding: 2%;}
+  footer .footer-nav li { 
+    font-size: .9em; 
+    margin-right: 5px;
+  }
+
+
+}     
+
+
+
+/* Small Phones to small Tablets from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+
+
+  //Overall styles//
+  section { padding: 6% 0;}
+  .row { padding: 0 4%; }
+  .col { width: 100%; margin-left: 0%; }
+  h2 {font-size: 1.6em; letter-spacing: 0;}
+  h2:after { margin-top: 15px;}
+
+
+  //header styles//
+
+  header .hero-text-box { padding: 0 4%; }
+  header .hero-text-box  h1 { font-size: 2.7em; }
+  header .hero-text-box  span { display: block; }
+  header .main-nav { display: none;}
+
+  //Feature Section//
+
+  .long-copy { 
+    width: 100%;
+    margin-left: 0; 
+  }
+
+  .box:nth-child(3) span { display: inline; }
+
+
+  //Steps Section//
+
+  .steps-box:first-child { 
+    padding-right: 0%; 
+    text-align: center; 
+  }
+
+  .steps-box .app-screen { 
+    width: 50%;
+    margin-top: 0px;
+  }
+
+  .steps-box .works-step, 
+  .steps-box .works-step:last-of-type { margin-bottom: 30px;}
+
+  .steps-box .works-step .number {
+    height: 40px;
+    width: 40px;
+    padding: .2em;
+  }
+
+  //Testimonials Section//
+
+  .section-testimonials blockquote { text-align: center; }
+
+  .section-testimonials blockquote:before {
+    font-size: 3.5rem;
+    left: -5px;
+    top: 1px;
+  }
+
+
+  //Plans Section//
+  
+  .section-plans .plan-box { 
+    width: 80%; 
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+
+  .section-plans .plan-box div .plan-price {
+    font-size: 3em;
+  } 
+  
+  // .section-plans .plan-box ul li {
+  //   font-size: 1.2em;
+  // } 
+
+
+  //Contact Section//
+
+  .section-form form { width: 100%; }
+
+  footer .footer-nav  {margin-bottom: 10px;}
+  
+  footer .social-links,
+  footer .footer-nav {
+    text-align: center;
+    float: none;
+  }
+
+}
+
+
+
+/* Small Phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+  body { font-size: 16px;}
+
+}

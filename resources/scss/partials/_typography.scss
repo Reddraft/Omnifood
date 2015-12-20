@@ -17,7 +17,7 @@
 
 @mixin base-h1 {
   @extend .share-headings;
-  font-size: 3rem;
+  font-size: 3em;
   word-spacing: 3px;
   letter-spacing: 1px;
 
@@ -25,7 +25,7 @@
 
 @mixin base-h2 {
   @extend .share-headings;
-  font-size: 1.8rem;
+  font-size: 1.8em;
   word-spacing: 2px;
   margin-bottom: 30px;
   text-align: center;
@@ -44,7 +44,7 @@
 
 @mixin base-h3 {
   @extend .share-headings;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   margin-bottom: 15px;
 }
 
@@ -60,7 +60,7 @@
 }
 
 @mixin smaller-p {
-  font-size: 0.9rem;
+  font-size: 0.9em;
   line-height: 150%;
 }
 
