@@ -95,10 +95,26 @@ a:active {
   margin-top: -5px; }
 
 /* --------------- */
+/* BASE */
+/* --------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: 'lato', "Helvetica Neue Arial", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden; }
+
+/* --------------- */
 /* HEADER */
 /* --------------- */
 header {
-  background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.7), #000), url("img/hero-min.jpg") no-repeat;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), #000), url("img/hero-min.jpg") no-repeat;
   height: 100vh;
   background-attachment: fixed;
@@ -264,7 +280,6 @@ h3 {
 /* TESTIMONIALS */
 /* --------------- */
 .section-testimonials {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), #000), url(img/back-customers-min.jpg) no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.7), #000), url(img/back-customers-min.jpg) no-repeat;
   background-size: cover;
   background-position: center top;
@@ -470,13 +485,12 @@ footer {
     width: 100%; }
     .section-plans .plan-box ul li {
       font-size: .9em; }
-
-  .section-plans .plan-box div .plan-price {
-    font-size: 2.2em; }
-    .section-plans .plan-box div .plan-price span {
-      font-size: 0.5em; }
-  .section-plans .plan-box div .icon-small {
-    width: 10px; }
+    .section-plans .plan-box div .plan-price {
+      font-size: 2.2em; }
+      .section-plans .plan-box div .plan-price span {
+        font-size: 0.5em; }
+    .section-plans .plan-box div .icon-small {
+      width: 10px; }
 
   form {
     width: 80%; }
@@ -571,19 +585,14 @@ footer {
 /* Small Phones from 0 to 480px */
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 16px; } }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+    font-size: 16px; }
 
-html {
-  background-color: #fff;
-  color: #555;
-  font-family: 'lato', "Helvetica Neue Arial", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  text-rendering: optimizeLegibility;
-  overflow-x: hidden; }
+  label {
+    line-height: 150%; }
+
+  label,
+  input,
+  select {
+    margin-bottom: 5px; } }
 
 /*# sourceMappingURL=style.css.map */

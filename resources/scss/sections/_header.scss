@@ -3,8 +3,7 @@
 /* --------------- */
 
 header {
-  background: -webkit-linear-gradient(180deg, $trans-black, $black), url('img/hero-min.jpg') no-repeat;
-  background:         linear-gradient(180deg, $trans-black, $black), url('img/hero-min.jpg') no-repeat;
+  background: linear-gradient(180deg, $trans-black, $black), url('img/hero-min.jpg') no-repeat;
   height: 100vh;
   background-attachment: fixed;
   background-position: center; 

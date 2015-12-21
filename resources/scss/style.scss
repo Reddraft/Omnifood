@@ -1,17 +1,22 @@
-//IMPORTS//
-@import "partials/all";
+// PARTIALS
 
+@import "partials/grid";
+@import "partials/Typography";
+@import "partials/colors";
+@import "partials/buttons";
+@import "partials/links";
+@import "partials/icons";
+@import "partials/base";
 
-// Reset margins, padding and apply a natural box layout model to all elements //
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+// SECTIONS
 
-html {
-  background-color: $white;
-  color: $mid-gray;
-  @include baseFont();
-  overflow-x: hidden;
-}
+@import "sections/header";
+@import "sections/features";
+@import "sections/meals";
+@import "sections/steps";
+@import "sections/cities";
+@import "sections/testimonials";
+@import "sections/plans";
+@import "sections/contact";
+@import "sections/footer";
+@import "sections/queries";

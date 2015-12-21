@@ -1,0 +1,19 @@
+/* --------------- */
+/* BASE */
+/* --------------- */
+
+
+// Reset margins, padding and apply a natural box layout model to all elements //
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $white;
+  color: $mid-gray;
+  @include baseFont();
+  overflow-x: hidden;
+}
+

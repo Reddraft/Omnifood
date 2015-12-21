@@ -112,23 +112,27 @@
       
       ul {
         li { font-size: .9em;}
+      }
+
+      div {
+
+        .plan-price {
+          font-size: 2.2em;
+
+          span {
+          font-size: 0.5em;
+          }
+
+        }
+
+        .icon-small {
+          width: 10px;
+        }
+
       }    
   }
 
-  .section-plans .plan-box div {
 
-    .plan-price {
-      font-size: 2.2em;
-      span {
-        font-size: 0.5em;
-      }
-    }
-  
-    .icon-small {
-      width: 10px;
-    }
-
-  }
 
 
   //Contact Section//
@@ -250,5 +254,15 @@
 @media only screen and (max-width: 480px) {
 
   body { font-size: 16px;}
+  
+  label {
+    line-height: 150%;
+  }
+
+  label,
+  input,
+  select  {
+    margin-bottom: 5px;
+  } 
 
 }

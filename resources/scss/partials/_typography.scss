@@ -55,8 +55,8 @@
   line-height: 150%;
   text-align: center;
   width: 80%;
-  margin-left: 10%; //instead of using  margin: 0 auto; I used 10% + 10% + width: 80% = 100%
-  margin-bottom: 30px;
+  margin-left: 10%; //instead of using  margin: 0 auto; I used 10% + 10% + width: 80% = 100%;
+  margin-bottom: 30px
 }
 
 @mixin smaller-p {

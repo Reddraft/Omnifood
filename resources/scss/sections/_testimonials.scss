@@ -3,7 +3,6 @@
 /* --------------- */
 
 .section-testimonials {
-  background: -webkit-linear-gradient($trans-black, $black), url(img/back-customers-min.jpg) no-repeat;
   background:         linear-gradient($trans-black, $black), url(img/back-customers-min.jpg) no-repeat;
   background-size: cover;
   background-position: center top;
@@ -17,7 +16,7 @@
     line-height: 150%;
 
     &:before {
-      content: "\201C"; // Quotation mark -- https://css-tricks.com/snippets/html/glyphs
+      content: "\201C"; // Quotation mark -- https://css-tricks.com/snippets/html/glyphs;
       font-size: 4.5rem;
       display: block;
       position: absolute;
