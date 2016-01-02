@@ -16,6 +16,9 @@ header {
     float: left;
     margin-top: 20px; 
   }
+  
+  //hide black logo when stiky nav is not present and show white logo//
+  .logo-black-sticky {display: none;}
 
   .main-nav {
     float: right;
@@ -30,7 +33,7 @@ header {
         padding: 10px 0;
         color: $white;
         font-size: 0.9em;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: uppercase;
         text-decoration: none;
         word-spacing: 3px;

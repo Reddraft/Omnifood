@@ -112,6 +112,31 @@ html {
   overflow-x: hidden; }
 
 /* --------------- */
+/* STICKY NAVIGATION */
+/* --------------- */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(250, 250, 250, 0.95);
+  z-index: 1000;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7); }
+  .sticky .logo {
+    display: none; }
+  .sticky .logo-black-sticky {
+    display: block;
+    height: 60px;
+    width: auto;
+    float: left;
+    margin: 5px 0; }
+  .sticky .main-nav {
+    margin-top: 21px; }
+  .sticky .main-nav li a:link, .sticky .main-nav li a:visited {
+    padding-bottom: 25px;
+    color: #555; }
+
+/* --------------- */
 /* HEADER */
 /* --------------- */
 header {
@@ -125,6 +150,8 @@ header {
     width: auto;
     float: left;
     margin-top: 20px; }
+  header .logo-black-sticky {
+    display: none; }
   header .main-nav {
     float: right;
     list-style: none;
@@ -136,7 +163,7 @@ header {
         padding: 10px 0;
         color: #fff;
         font-size: 0.9em;
-        font-weight: 100;
+        font-weight: 300;
         text-transform: uppercase;
         text-decoration: none;
         word-spacing: 3px;

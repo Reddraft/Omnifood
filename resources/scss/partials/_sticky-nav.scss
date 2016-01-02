@@ -1,0 +1,34 @@
+/* --------------- */
+/* STICKY NAVIGATION */
+/* --------------- */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $trans-white;
+  z-index: 1000;
+  box-shadow: 0 0 8px $trans-black;
+
+  //hide white logo when stiky nav is present and show black logo;//
+  .logo {display: none;}
+
+  .logo-black-sticky {
+    display: block;
+    height: 60px;
+    width: auto;
+    float: left; 
+    margin: 5px 0; 
+  }  
+
+  .main-nav { margin-top: 21px;}
+
+  .main-nav li a {
+    &:link, 
+    &:visited {
+      padding-bottom: 25px;
+      color: $mid-gray;
+    }
+  }
+}
