@@ -17,19 +17,19 @@
 
     <!-- SECTION HEADER -->
 
-    <header><!-- start Header  -->
+    <header id="top"><!-- start Header  -->
 
-      <nav class="sticky"><!-- start Nav  -->
+      <nav><!-- start Nav  -->
 
         <div class="row"><!-- starts first row  -->
 
           <img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo"> 
           <a href="#top"><img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black-sticky"></a> 
           <ul class="main-nav">
-            <li><a href="#">Food Delivery</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Our cities</a></li>
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="#features">Food Delivery</a></li>
+            <li><a href="#steps">How it works</a></li>
+            <li><a href="#cities">Our cities</a></li>
+            <li><a href="#contact">Sign Up</a></li>
           </ul>
 
         </div><!-- End of first row  -->
@@ -39,8 +39,8 @@
       <div class="hero-text-box"><!-- start hero-text-box  -->
 
         <h1>Goodbye <span>junk food.<br>Hello super healthy meals</span></h1>
-        <a class="btn btn-full" href="#">I’m hungry</a>
-        <a class="btn btn-ghost" href="#">Show me more</a>
+        <a class="btn btn-full js--scroll-to-plans" href="#" >I’m hungry</a>
+        <a class="btn btn-ghost js--scroll-to-start" href="#" >Show me more</a>
 
       </div><!-- End hero-text-box  -->
 
@@ -50,7 +50,7 @@
 
     <!--SECTION FEATURES-->
     
-    <section class="section-features"><!-- start section features  -->
+    <section class="section-features js--section-features" id="features"><!-- start section features  -->
 
       <div class="row"><!-- starts first row  -->
 
@@ -117,7 +117,7 @@
 
     <!--SECTION MEALS-->
     
-    <section class="section-meals"><!-- start section meals  -->
+    <section class="section-meals" id="meals"><!-- start section meals  -->
       
       <ul class="meals-showcase clearfix"><!-- start first meals ul -->
 
@@ -174,7 +174,7 @@
 
     <!--SECTION STEPS-->
 
-    <section class="section-steps"><!-- start section steps  --> 
+    <section class="section-steps" id="steps"><!-- start section steps  --> 
 
       <div class="row">
         <h2>How it works &mdash; Simple as 1, 2, 3</h2>
@@ -216,7 +216,7 @@
 
     <!--SECTION CITIES-->
     
-    <section class="section-cities"><!-- start section cities  --> 
+    <section class="section-cities" id="cities"><!-- start section cities  --> 
 
       <div class="row">
         <h2>We're currently in these cities</h2>
@@ -296,7 +296,7 @@
 
     <!--SECTION TESTIMONIALS-->
 
-    <section class="section-testimonials"><!-- start section testimonials --> 
+    <section class="section-testimonials" id="testimonials"><!-- start section testimonials --> 
 
       <div class="row">
         <h2>Our customers can't live without us</h2>
@@ -342,7 +342,7 @@
 
     <!--SECTION PLANS-->
 
-    <section class="section-plans"><!-- start section plans -->
+    <section class="section-plans js--section-plans" id="plans"><!-- start section plans -->
 
       <div class="row">
         <h2>Start eating healthy today!</h2>
@@ -439,7 +439,7 @@
 
     <!--SECTION CONTACT-->
 
-    <section class="section-form"><!-- start section contact -->
+    <section class="section-form" id="contact"><!-- start section contact -->
 
       <div class="row">
         <h2>We're happy to hear from you</h2>
@@ -548,15 +548,21 @@
         <p>Copyright &copy; 2015 by Omnifood. All right reserved.</p>
       </div><!-- end of second row -->      
 
-    </footer><!-- end footer --> 
+    </footer><!-- end footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><!-- Jquery -->
-    <script src="resources/js/script.js"></script><!-- Main JS File -->
+    <!-- Jquery Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><!-- Jquery -->    
 
     <!-- IE scripts -->
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script><!-- CSS3 Media Queries (for IE 6-8, and more) -->
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script><!-- enable use of HTML5 sectioning elements in legacy Internet Explorer. -->
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script><!-- CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8 -->
+
+    <!-- Vendor Scripts -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script><!-- sticky navigation script -->
+
+    <!-- Main JS File -->
+    <script src="resources/js/script.js"></script> 
   </body>
 
 </html>

@@ -8,7 +8,7 @@
   left: 0;
   width: 100%;
   background-color: $trans-white;
-  z-index: 1000;
+  z-index: 9999;
   box-shadow: 0 0 8px $trans-black;
 
   //hide white logo when stiky nav is present and show black logo;//
@@ -27,7 +27,7 @@
   .main-nav li a {
     &:link, 
     &:visited {
-      padding-bottom: 25px;
+      padding-bottom: 22px;
       color: $mid-gray;
     }
   }
