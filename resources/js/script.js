@@ -41,13 +41,58 @@ $(document).ready(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - 70 // minus 70px from top
+          scrollTop: target.offset().top - 70 //minus 70px from top
         }, 1000);
         return false;
       }
     }
   });
 
+
+  /* --------- ANIMATIONS ON SCROLL ---------*/
+
+
+
+  $('.js--wp-1').addClass('animated lightSpeedIn');
+
+  $('.js--wp-2').waypoint(function(direction) {
+    $('.js--wp-2').addClass('animated fadeIn');
+    }, {
+        offset: '50%;'
+  });
+
+  $('.js--wp-3').waypoint(function(direction) {
+    $('.js--wp-3').addClass('animated bounceInLeft');
+    }, {
+        offset: '50%;'
+  });
+
+  $('.js--wp-4').waypoint(function(direction) {
+    $('.js--wp-4').addClass('animated fadeIn');
+    }, {
+        offset: '50%;'
+  });  
+
+  $('.js--wp-5').waypoint(function(direction) {
+    $('.js--wp-5').addClass('animated fadeIn');
+    }, {
+        offset: '50%;'
+  });
+
+  $('.js--wp-6').waypoint(function(direction) {
+    $('.js--wp-6').addClass('animated shake');
+    }, {
+        offset: '50%;'
+  });
+
+  $('.js--wp-7').waypoint(function(direction) {
+    $('.js--wp-7').addClass('animated slideInUp');
+    }, {
+        offset: '50%;'
+  });       
+
+    
+    
 
 
   
