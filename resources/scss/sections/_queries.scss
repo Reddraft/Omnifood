@@ -32,7 +32,8 @@
 /* SMALL TABLETS TO BIG TABLETS FROM 768PX TO 1023PX */
 @media only screen and (max-width: 1023px) {
 
-
+  header .main-nav li { margin-left: 20px;}
+  header .main-nav li a:link { font-size: .85em;}
 
   //Overall styles//
 
@@ -173,8 +174,66 @@
   header .hero-text-box { padding: 0 4%; }
   header .hero-text-box  h1 { font-size: 2.7em; }
   header .hero-text-box  span { display: block; }
-  header .main-nav { display: none;}
 
+
+
+  /********** Mobile Navigation ************/
+
+
+
+  header .main-nav  { 
+    float: left;
+    margin-top: 30px;
+    display: none;
+  }
+
+  header .main-nav li { 
+    display: block;
+    
+  }
+  
+  header .main-nav li a:link,
+  header .main-nav li a:visited {
+    padding: 5px;
+    border-bottom: none;
+    color: $dark-orange;
+  }
+  header .main-nav li a:hover,
+  header .main-nav li a:active {
+    border: 0;
+    color: $light-orange;
+  }    
+
+  .mobile-nav-icon { 
+    display: inline-block;
+    margin-top: 30px; 
+  }
+
+  /********** Mobile Sticky Navigation ************/
+
+  .sticky .main-nav { margin: 10px 0;}
+
+  .sticky .logo-black-sticky { height: 50px; margin-top: 5px;}
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited { 
+    padding: 0px;
+  }
+
+  .sticky .main-nav li a:hover,
+  .sticky .main-nav li a:active { 
+    color: $dark-orange;
+  }  
+
+  .sticky .mobile-nav-icon { 
+    margin-top: 10px; 
+  }
+
+  .sticky .mobile-nav-icon i {
+    font-size: 2em;
+    color: $dark-orange;
+  }
+  
   //Feature Section//
 
   .long-copy { 
