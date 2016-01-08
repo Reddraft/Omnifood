@@ -104,7 +104,7 @@ $(document).ready(function() {
      if(icon.hasClass('ion-navicon-round')) {
         icon.addClass('ion-close-round');
         icon.removeClass('ion-navicon-round');
-     } else {
+     }else {
         icon.removeClass('ion-close-round');
         icon.addClass('ion-navicon-round');
 
