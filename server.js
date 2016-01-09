@@ -8,7 +8,9 @@ var app = express();
 //});
 
 //Express 4
-app.use(express.static(__dirname, '/'));
+app.use(express.static( __dirname + '/out/setup'));
+app.use(express.static( __dirname + '/out/webapp'));
+
 
 
 
