@@ -8,12 +8,10 @@ var app = express();
 //});
 
 //Express 4
-app.use(express.static(__dirname, '/public'));
+app.use(express.static(__dirname, '/'));
 
 
 
 app.listen(5000);
 
 console.log('Express listening on port 5000');
-
-        
